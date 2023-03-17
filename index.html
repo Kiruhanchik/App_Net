@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Насвязи</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="">
+    </header>
+    <main>
+        <div class="post">
+            <div class="bio">
+                <h2>Ангелина Иванова</h2>
+                <img src="img/girl.jpg" alt="">
+                <h3>Была в сети 28 мин назад</h3>
+            </div>
+            <div class="picture">
+                <h3>5 дней назад</h3>
+                <img src="img/photo.jpeg" alt="">
+            </div>
+        </div>
+        <h2>Ниже вы можете оставить комментарий</h2>
+        <h3><p style="color: rgb(255, 13, 13); display: inline;">*</p> Обязательные поля</h3>
+        <form action="" method="">
+            <p style="color: rgb(0, 0, 0); display: inline;">Имя <p style="color: rgb(255, 13, 13); display: inline;">*</p></p><input style="display: block;" required placeholder="Введите имя" name="name" id="name" type="text">
+            <p style="color: rgb(0, 0, 0); display: inline;">Текст комментария <p style="color: rgb(255, 13, 13); display: inline;">*</p></p><textarea required placeholder="Введите текст комментария" id="comment" name="comment"></textarea>
+            <p>Дата комментария</p><input type="date" name="date" id="date">
+            <button id="share" type="button">Опубликовать</button>
+        </form>
+        <div id="comments">   
+            <h2>Комментарии</h2>
+        </div>
+    </main>
+</body>
+</html>

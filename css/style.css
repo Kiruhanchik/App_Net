@@ -1,0 +1,52 @@
+body {
+  background-color: lightcyan; }
+
+header img {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1.5px solid black;
+  padding-bottom: 1%;
+  padding-left: 3%; }
+
+main .post {
+  margin-top: 8%;
+  display: flex;
+  align-items: center; }
+  main .post .bio {
+    margin-left: 3%;
+    padding-left: 7%; }
+    main .post .bio img {
+      width: 50%; }
+  main .post .picture {
+    padding-right: 10%; }
+    main .post .picture img {
+      width: 100%; }
+main h2 {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 10%;
+  margin-top: 7%; }
+main h3 {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 10%;
+  margin-top: 1%; }
+main form {
+  margin-top: 3%;
+  margin-left: 10%; }
+  main form p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600; }
+  main form button {
+    display: block;
+    margin-top: 2%;
+    background-color: #d26ed9;
+    border-color: #d26ed9;
+    color: white; }
+main #comments h2 {
+  border-bottom: 2px solid black;
+  padding-bottom: 1%;
+  margin-right: 75%;
+  font-size: 200%; }
+
+/*# sourceMappingURL=style.css.map */
